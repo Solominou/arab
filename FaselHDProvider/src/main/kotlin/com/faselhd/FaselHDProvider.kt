@@ -44,7 +44,7 @@ class FaselHD : MainAPI() {
         )
     }
     override val mainPage = mainPageOf(
-            "$mainUrl/all-movies/page/" to "جميع الافلام",
+            "$mainUrl/all-movies/page/" to  "الافلام",
             "$mainUrl/movies_top_views/page/" to "الافلام الاعلي مشاهدة",
             "$mainUrl/dubbed-movies/page/" to "الأفلام المدبلجة",
             "$mainUrl/movies_top_imdb/page/" to "الافلام الاعلي تقييما IMDB",
