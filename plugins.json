@@ -181,7 +181,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=faselhd.io&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/yoyzo/arab",
-        "fileSize": 16140,
+        "fileSize": 16194,
         "status": 1,
         "language": "ar",
         "authors": [
@@ -193,7 +193,7 @@
             "Anime",
             "AsianDrama"
         ],
-        "version": 6,
+        "version": 7,
         "internalName": "FaselHDProvider",
         "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/FaselHDProvider.cs3",
         "name": "FaselHDProvider"
