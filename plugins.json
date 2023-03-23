@@ -279,24 +279,27 @@
         "name": "MyCimaProvider"
     },
     {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=shahid4u.cc&sz=%size%",
+        "iconUrl": "https://raw.githubusercontent.com/Solominou/arab/main/SoraStream/Icon.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/Solominou/arab",
-        "fileSize": 15333,
+        "fileSize": 242694,
         "status": 1,
-        "language": "ar",
+        "language": "en",
         "authors": [
-            "ImZaw"
+            "Solominou",
+            "Arab"
         ],
         "tvTypes": [
+            "AsianDrama",
             "TvSeries",
-            "Movie",
             "Anime",
-            "AsianDrama"
+            "Movie"
         ],
-        "version": 7,
+        "version": 106,
         "internalName": "SoraStream",
-        "url": "https://github.com/Solominou/arab/builds/SoraStream.cs3",
-        "name": "Sora"
+        "description": "#1 best extention based on MultiAPI",
+        "url": "https://raw.githubusercontent.com/Solominou/arab/builds/SoraStream.cs3",
+        "name": "SoraStream"
+    },
     }
 ]
