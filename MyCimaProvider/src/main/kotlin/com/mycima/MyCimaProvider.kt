@@ -32,7 +32,7 @@ class MyCima : MainAPI() {
         val title = select("div.Thumb--GridItem strong").text()
             .replace("$year", "")
             .replace("مشاهدة|فيلم|مسلسل|مترجم".toRegex(), "")
-            .replace("( نسخة مدبلجة )", " ( نسخة مدبلجة ) ")
+            .replace("( نسخة مدبلجة )", " ( مدبلج ) ")
         // If you need to differentiate use the url.
         return MovieSearchResponse(
             title,
