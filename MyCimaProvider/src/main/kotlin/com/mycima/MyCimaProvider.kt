@@ -45,10 +45,10 @@ class MyCima : MainAPI() {
         )
     }
     override val mainPage = mainPageOf(
-            "$mainUrl/movies/top/page/" to "ٍTop Movies Solo",
+            "$mainUrl/movies/top/page/" to "ٍTop Movies",
             "$mainUrl/movies/page/" to "New Movies",
             "$mainUrl/movies/recent/page/" to "Recently Added Movies",
-            "$mainUrl/seriestv/top/page/" to "Top Series",
+            "$mainUrl/seriestv/category/مسلسلات/13-مسلسلات-عربيه-arabic-series/list//page/" to "Arabic Series",
             "$mainUrl/seriestv/new/page/" to "New Series",
         )
 
