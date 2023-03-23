@@ -2,7 +2,7 @@
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=akwam.to&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 13712,
         "status": 1,
         "language": "ar",
@@ -17,13 +17,13 @@
         ],
         "version": 2,
         "internalName": "AkwamProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/AkwamProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/AkwamProvider.cs3",
         "name": "AkwamProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=anime4up.tv&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 15389,
         "status": 1,
         "language": "ar",
@@ -38,13 +38,13 @@
         "version": 1,
         "internalName": "Anime4upPack",
         "description": "This pack contains Anime4up and Witanime",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/Anime4upPack.cs3",
+        "url": "https://github.com/Solominou/arab/builds/Anime4upPack.cs3",
         "name": "Anime4upPack"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=animeblkom.net&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 13332,
         "status": 1,
         "language": "ar",
@@ -58,13 +58,13 @@
         ],
         "version": 2,
         "internalName": "AnimeBlkomProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/AnimeBlkomProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/AnimeBlkomProvider.cs3",
         "name": "AnimeBlkomProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=animeiat.tv&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 20624,
         "status": 1,
         "language": "ar",
@@ -76,13 +76,13 @@
         ],
         "version": 2,
         "internalName": "AnimeiatProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/AnimeiatProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/AnimeiatProvider.cs3",
         "name": "AnimeiatProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=arabseed.ink&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 16392,
         "status": 1,
         "language": "ar",
@@ -95,13 +95,13 @@
         ],
         "version": 3,
         "internalName": "ArabSeedProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/ArabSeedProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/ArabSeedProvider.cs3",
         "name": "ArabSeedProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=cimanow.cc&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 14700,
         "status": 1,
         "language": "ar",
@@ -114,13 +114,13 @@
         ],
         "version": 1,
         "internalName": "CimaNowProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/CimaNowProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/CimaNowProvider.cs3",
         "name": "CimaNowProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=tv.egydead.live&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 13531,
         "status": 1,
         "language": "ar",
@@ -134,12 +134,12 @@
         ],
         "version": 4,
         "internalName": "EgyDeadProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/EgyDeadProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/EgyDeadProvider.cs3",
         "name": "EgyDeadProvider"
     },
     {
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 19921,
         "status": 1,
         "language": "ar",
@@ -155,13 +155,13 @@
         "version": 1,
         "internalName": "Extractors",
         "description": "This is required to be downloaded.",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/Extractors.cs3",
+        "url": "https://github.com/Solominou/arab/builds/Extractors.cs3",
         "name": "Extractors"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://fajer.show&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 16939,
         "status": 1,
         "language": "ar",
@@ -174,14 +174,14 @@
         ],
         "version": 3,
         "internalName": "FajerShowProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/FajerShowProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/FajerShowProvider.cs3",
         "name": "FajerShowProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=faselhd.io&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
-        "fileSize": 16140,
+        "repositoryUrl": "https://github.com/Solominou/arab",
+        "fileSize": 16194,
         "status": 1,
         "language": "ar",
         "authors": [
@@ -193,15 +193,15 @@
             "Anime",
             "AsianDrama"
         ],
-        "version": 6,
+        "version": 7,
         "internalName": "FaselHDProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/FaselHDProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/FaselHDProvider.cs3",
         "name": "FaselHDProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.fushaar.com&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 11561,
         "status": 1,
         "language": "ar",
@@ -213,13 +213,13 @@
         ],
         "version": 2,
         "internalName": "FushaarProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/FushaarProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/FushaarProvider.cs3",
         "name": "FushaarProvider"
     },
     {
         "iconUrl": "https://b.gateanime.cam/wp-content/uploads/2020/12/cropped-Favicon-192x192.png",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 11621,
         "status": 1,
         "language": "ar",
@@ -233,13 +233,13 @@
         ],
         "version": 3,
         "internalName": "GateAnimeProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/GateAnimeProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/GateAnimeProvider.cs3",
         "name": "GateAnimeProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=movizland.online&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 18060,
         "status": 1,
         "language": "ar",
@@ -255,13 +255,13 @@
         "version": 5,
         "internalName": "MovizlandProvider",
         "description": "Not recommended for series.",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/MovizlandProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/MovizlandProvider.cs3",
         "name": "MovizlandProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=wecima.tube&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 19538,
         "status": 1,
         "language": "ar",
@@ -275,13 +275,13 @@
         ],
         "version": 8,
         "internalName": "MyCimaProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/MyCimaProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/MyCimaProvider.cs3",
         "name": "MyCimaProvider"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=shahid4u.cc&sz=%size%",
         "apiVersion": 1,
-        "repositoryUrl": "https://github.com/yoyzo/arab",
+        "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 15333,
         "status": 1,
         "language": "ar",
@@ -296,7 +296,7 @@
         ],
         "version": 7,
         "internalName": "Shahid4uProvider",
-        "url": "https://raw.githubusercontent.com/yoyzo/arab/builds/Shahid4uProvider.cs3",
+        "url": "https://github.com/Solominou/arab/builds/Shahid4uProvider.cs3",
         "name": "Shahid4uProvider"
     }
 ]
