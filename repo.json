@@ -3,6 +3,6 @@
     "description": "Cloudstream Arabic Plugin Repository",
     "manifestVersion": 1,
     "pluginLists": [
-      "https://github.com/Solominou/arab/blob/builds/plugins.json"
+      "https://raw.githubusercontent.com/Solominou/arab/builds/plugins.json"
     ]
   }
