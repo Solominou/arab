@@ -279,6 +279,26 @@
         "name": "MyCimaProvider"
     },
     {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=egybest.mx&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Solominou/arab",
+        "fileSize": 19538,
+        "status": 1,
+        "language": "ar",
+        "authors": [
+            "Solo"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime"
+        ],
+        "version": 8,
+        "internalName": "EgyBestProvider",
+        "url": "https://raw.githubusercontent.com/Solominou/arab/builds/EgyBestProvider.cs3",
+        "name": "EgyBestProvider"
+    },
+    {
         "iconUrl": "https://www.google.com/s2/favicons?domain=shahid4u.cc&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/Solominou/arab",
