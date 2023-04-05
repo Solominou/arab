@@ -259,6 +259,27 @@
         "url": "https://raw.githubusercontent.com/Solominou/arab/builds/MyCimaProvider.cs3",
         "name": "MyCimaProvider"
     },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=shahid4uu.cam&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/Solominou/arab",
+        "fileSize": 15333,
+        "status": 1,
+        "language": "ar",
+        "authors": [
+            "ImZaw"
+        ],
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Anime",
+            "AsianDrama"
+        ],
+        "version": 7,
+        "internalName": "Shahid4uProvider",
+        "url": "https://raw.githubusercontent.com/Solominou/arab/builds/Shahid4uProvider.cs3",
+        "name": "Shahid4uProvider"
+    },
      {
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/Solominou/arab",
