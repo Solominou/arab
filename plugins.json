@@ -103,7 +103,7 @@
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 13531,
-        "status": 1,
+        "status": 0,
         "language": "ar",
         "authors": [
             "ImZaw"
@@ -284,7 +284,7 @@
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/Solominou/arab",
         "fileSize": 28708,
-        "status": 0,
+        "status": 1,
         "authors": [
             "Solo"
         ],
