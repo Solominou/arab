@@ -12,7 +12,7 @@
         "tvTypes": [
             "TvSeries",
             "Movie",
-            "Anime",
+            "Others",
             "Cartoon"
         ],
         "version": 2,
@@ -91,7 +91,7 @@
         ],
         "tvTypes": [
             "TvSeries",
-            "Movie"
+            "Others"
         ],
         "version": 1,
         "internalName": "CimaNowProvider",
@@ -151,7 +151,7 @@
         ],
         "tvTypes": [
             "TvSeries",
-            "Movie"
+            "Others"
         ],
         "version": 3,
         "internalName": "FajerShowProvider",
@@ -251,7 +251,7 @@
         ],
         "tvTypes": [
             "TvSeries",
-            "Movie",
+            "Others",
             "Anime"
         ],
         "version": 8,
