@@ -83,83 +83,43 @@ class FaselHD : MainAPI() {
             doc = app.get(url, interceptor = cfKiller, timeout = 120).document
         }
         val isMovie = doc.select("div.epAll").isEmpty()
-        val posterUrl = doc.select("div.posterImg img").attr("src")
-            .ifEmpty { doc.select("div.seasonDiv.active img").attr("data-src") }
+        val title = doc.select("title").text().replace(" - فاصل إعلاني", "")
+        val poster = doc.select("div.posterImg img").attr("src")
+        val year = doc.select("span.year").text().toIntOrNull()
+        val plot = doc.select("div.singleDesc p").text()
 
-        val year = doc.select("div[id=\"singleList\"] div[class=\"col-xl-6 col-lg-6 col-md-6 col-sm-6\"]").firstOrNull {
-            it.text().contains("سنة|موعد".toRegex())
-        }?.text()?.getIntFromText()
-
-        val title =
-            doc.select("title").text().replace(" - فاصل إعلاني", "")
-                .replace("الموسم الأول|برنامج|فيلم|مترجم|اون لاين|مسلسل|مشاهدة|انمي|أنمي|$year".toRegex(), "")
-        // A bit iffy to parse twice like this, but it'll do.
-        val duration = doc.select("div[id=\"singleList\"] div[class=\"col-xl-6 col-lg-6 col-md-6 col-sm-6\"]").firstOrNull {
-            it.text().contains("مدة|توقيت".toRegex())
-        }?.text()?.getIntFromText()
-
-        val tags = doc.select("div[id=\"singleList\"] div[class=\"col-xl-6 col-lg-6 col-md-6 col-sm-6\"]:contains(تصنيف الفيلم) a").map {
-            it.text()
-        }
-        val recommendations = doc.select("div#postList div.postDiv").mapNotNull {
-            it.toSearchResponse()
-        }
-        val synopsis = doc.select("div.singleDesc p").text()
         return if (isMovie) {
-            newMovieLoadResponse(
-                title,
-                url,
-                TvType.Movie,
-                url
-            ) {
-                this.posterUrl = posterUrl
+            newMovieLoadResponse(title, url, TvType.Movie, url) {
+                this.posterUrl = poster
+                this.plot = plot
                 this.year = year
-                this.plot = synopsis
-                this.duration = duration
-                this.tags = tags
-                this.recommendations = recommendations
-                this.posterHeaders = cfKiller.getCookieHeaders(alternativeUrl).toMap()
             }
         } else {
-            val episodes = ArrayList<Episode>()
-            doc.select("div.epAll a").map {
-                episodes.add(
-                    Episode(
-                        it.attr("href"),
-                        it.text(),
-                        doc.select("div.seasonDiv.active div.title").text().getIntFromText() ?: 1,
-                        it.text().getIntFromText(),
-                    )
-                )
+            val episodes = doc.select("div.epAll a").map {
+                Episode(it.attr("href"), it.text())
             }
-            doc.select("div[id=\"seasonList\"] div[class=\"col-xl-2 col-lg-3 col-md-6\"] div.seasonDiv")
-                .not(".active").forEach { it ->
-                    val id = it.attr("onclick").replace(".*\\/\\?p=|'".toRegex(), "")
-                    var s = app.get("$mainUrl/?p=" + id).document
-                    if (s.select("title").text() == "Just a moment...") {
-                        s = app.get("$alternativeUrl/?p=" + id, interceptor = cfKiller).document
-                    }
-                    s.select("div.epAll a").map {
-                        episodes.add(
-                            Episode(
-                                it.attr("href"),
-                                it.text(),
-                                s.select("div.seasonDiv.active div.title").text().getIntFromText(),
-                                it.text().getIntFromText(),
-                            )
-                        )
-                    }
-                }
-            newTvSeriesLoadResponse(title, url, TvType.TvSeries, episodes.distinct().sortedBy { it.episode }) {
-                this.duration = duration
-                this.posterUrl = posterUrl
+            newTvSeriesLoadResponse(title, url, TvType.TvSeries, episodes) {
+                this.posterUrl = poster
+                this.plot = plot
                 this.year = year
-                this.plot = synopsis
-                this.tags = tags
-                this.recommendations = recommendations
-                this.posterHeaders = cfKiller.getCookieHeaders(alternativeUrl).toMap()
             }
         }
     }
 
-    override suspend
+    override suspend fun loadLinks(
+        data: String,
+        isCasting: Boolean,
+        subtitleCallback: (SubtitleFile) -> Unit,
+        callback: (ExtractorLink) -> Unit
+    ) {
+        val doc = app.get(data).document
+        val iframe = doc.select("iframe").attr("src")
+        WebViewResolver(iframe, cfKiller).getSafeLink()?.let { videoUrl ->
+            M3u8Helper.generateM3u8(
+                name,
+                videoUrl,
+                "$mainUrl/"
+            ).forEach(callback)
+        }
+    }
+}
