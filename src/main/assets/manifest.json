@@ -1,0 +1,7 @@
+{
+  "name": "FaselHD",
+  "description": "Arabic movie and series provider",
+  "version": "1.0.0",
+  "language": "ar",
+  "mainClass": "com.faselhd.FaselHD"
+}
